@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  }
+
+.doors-list {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  padding-bottom: 40px;
+  }
+  
+.door {
+  width: 100px;
+  }
+
+.container {
+  display: flex;
+  width: 550px;
+  margin: 0 auto;
+  padding: 5px;
+  }
+
+.note-1 {
+  width: 150px;
+  margin-right: 25px;
+  }
+
+.note-2 {
+  width: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
+  }
+
+.note-3 {
+  width: 100px;
+  margin-top: auto;
+  margin-left: auto;
+  }
+

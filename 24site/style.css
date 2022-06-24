@@ -1,0 +1,23 @@
+.movie {
+    display: grid;
+    grid-template-columns: 1fr 235px;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    
+  .tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 15px;
+    }
+    
+  .tag {
+    margin: 5px;
+    }
+    
+  .tag-link {
+    display: inline-block;
+    /* ИЛИ display: block; */
+    padding: 5px 10px;
+    }

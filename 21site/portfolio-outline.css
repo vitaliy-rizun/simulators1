@@ -1,0 +1,32 @@
+.page-footer,.page-header,.page-main {
+    outline: 2px solid #9779ec;
+    outline-offset: -2px
+}
+
+.page-header {
+    margin-bottom: 1px
+}
+
+.page-footer,.page-main {
+    padding: 3px
+}
+
+.page-main {
+    outline: 2px solid #f799ff;
+    margin-bottom: 1px
+}
+
+.bio,.photo {
+    outline: 2px solid #66b5ff;
+    outline-offset: -2px
+}
+
+.contacts,.container,.copyright,.logo {
+    outline: 2px solid #fe6767;
+    outline-offset: -2px
+}
+
+.container {
+    outline: 2px solid #73c86a;
+    padding: 3px
+}
