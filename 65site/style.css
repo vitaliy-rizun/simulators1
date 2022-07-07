@@ -1,0 +1,20 @@
+body {
+  padding-top: 80px;
+}
+
+.block1 {
+  width: 256px;
+  margin: 0 auto;
+
+  background: url("cows.jpg") no-repeat;
+  box-shadow: 1px 1px 3px #999999;
+}
+
+.block2 {
+  background: url("cat_walk.png") no-repeat 190px 195px;
+}
+
+.block3 {
+  height: 256px;
+  background: url("fence.png") no-repeat;
+}

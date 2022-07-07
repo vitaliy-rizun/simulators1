@@ -1,0 +1,14 @@
+/*Задайте цвет фона #ff3300 пиковым .spade дамам .queen*/
+.spade.queen {
+    background-color: #ff3300;
+  }
+  
+  /*Задайте цвет фона #339933 червям .heart, которые стоят на первом месте в своей строке*/
+  .heart:first-child {
+    background-color: #339933;
+  }
+  
+  /*Задайте цвет фона #0099ff бубновым .diamond тузам .ace которые стоят на последнем месте в своей строке*/
+  .diamond.ace:last-child {
+    background-color: #0099ff;
+  }

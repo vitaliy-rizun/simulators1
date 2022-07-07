@@ -1,0 +1,14 @@
+/*Всем картам, кроме королей .king, задайте цвет фона #808080*/
+.cards li:not(.king) {
+  background-color: #808080;
+}
+
+/*Всем картам, кроме бубновых .diamond, задайте цвет текста #0099ff*/
+.cards li:not(.diamond) {
+  color: #0099ff;
+}
+
+/*Всем картам, кроме первых в строках, задайте шрифт "Arial", sans-serif*/
+.cards li:not(:first-child) {
+  font-family: "Arial", sans-serif;
+}
