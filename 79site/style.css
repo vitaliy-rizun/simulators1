@@ -1,0 +1,16 @@
+/*Выделите строку, в которой нет ни одной карты: задайте высоту 70px и пунктирную (dashed) рамку толщиной 2px цветом #55bb99*/
+ul:empty {
+  height: 70px;
+  border: 2px dashed #55bb99;
+}
+
+/*Увеличьте размер всех непустых карт: ширина 60px, высота 90px*/
+li:not(:empty) {
+  width: 60px;
+  height: 90px;
+}
+
+/*Установите display: block для span в этих непустых картах.*/
+li:not(:empty) span {
+  display: block;
+}

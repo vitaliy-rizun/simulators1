@@ -1,0 +1,16 @@
+/*Задайте всем картам чётных строк цвет фона #ff3300*/
+/*ul:nth-of-type(2n) li {*/
+  ul:nth-of-type(even) li {
+    background-color: #ff3300;
+  }
+  
+  /*Задайте третьей карте третьей строки цвет фона #339933*/
+  ul:nth-of-type(3) li:nth-of-type(3) {
+    background-color: #339933;
+  }
+  
+  /*Задайте нечётным картам первой строки цвет фона #0099ff*/
+  /*ul:nth-of-type(1) li:nth-of-type(2n+1) {*/
+  ul:nth-of-type(1) li:nth-of-type(odd) {
+    background-color: #0099ff;
+  }
